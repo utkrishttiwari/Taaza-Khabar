@@ -39,6 +39,6 @@ npm run dev
 ## 📧 Contact
 
 Created by **Utkrisht Tiwari**  
-🌐 Portfolio: [ut-portfolio.vercel.app](https://utkrisht-tiwari.vercel.app/)  
+🌐 Portfolio: [utkrisht-tiwari.vercel.app](https://utkrisht-tiwari.vercel.app/)  
 💼 LinkedIn: [linkedin.com/in/utkrisht-tiwari](https://in.linkedin.com/in/utkrisht-tiwari)  
 🐙 GitHub: [github.com/utkrishttiwari](https://github.com/utkrishttiwari/)
