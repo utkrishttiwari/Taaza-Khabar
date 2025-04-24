@@ -1,6 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+interface Article {
+    title: string;
+    urlToImage?: string;
+    publishedAt: string;
+    content: string;
+}
+
 const Newspaper = () => {
 
     const today = new Date();
@@ -8,7 +15,7 @@ const Newspaper = () => {
     today.setDate(today.getDate() - 1);
     const previousDate = today.toISOString().split("T")[0];
     
-    const [data, setData] = useState([]);
+    const [data, setData] = useState<Article[]>([]);
     const API_URL = `https://newsapi.org/v2/everything?q=apple&from=${previousDate}&to=${formattedDate}&sortBy=popularity&apiKey=b0788061f10b4f2095f370a5eb3d3e2d`;
 
     useEffect(() => {
