@@ -17,6 +17,7 @@
 ## 🛠 Tech Stack
 
 - **React**
+- **TypeScript**
 - **Vite**
 - **CSS (custom styling)**
 - **Axios** for HTTP requests
@@ -32,3 +33,12 @@ Clone the repo and install dependencies:
 git clone https://github.com/your-username/taaza-khabar.git
 cd taaza-khabar
 npm install
+npm run dev
+```
+
+## 📧 Contact
+
+Created by **Utkrisht Tiwari**  
+🌐 Portfolio: [ut-portfolio.vercel.app](https://utkrisht-tiwari.vercel.app/)  
+💼 LinkedIn: [linkedin.com/in/utkrisht-tiwari](https://in.linkedin.com/in/utkrisht-tiwari)  
+🐙 GitHub: [github.com/utkrishttiwari](https://github.com/utkrishttiwari/)
